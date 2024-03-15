@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0; padding: 0;">
+    <div style="max-width: 400px; margin: 100px auto; background-color: #fff; border-radius: 5px; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+        <h1 style="color: #333;">Logout</h1>
+        <p style="color: #666; margin-bottom: 20px;">Are you sure you want to logout?</p>
+        <form id="logoutForm" action="logout_process.php" method="post">
+            <button type="submit" style="background-color: #ff6347; color: #fff; border: none; padding: 10px 20px; border-radius: 3px; cursor: pointer; transition: background-color 0.3s;">Logout</button>
+        </form>
+    </div>
+
+    <script>
+        // Function to redirect to the login page after logout
+        function redirectToLogin() {
+            window.location.href = "../index.html"; // Change "login.html" to the actual login page URL
+        }
+
+        // Add event listener to the logout form
+        document.getElementById("logoutForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+            // Perform logout actions (e.g., send logout request to server)
+            // Then redirect to the login page
+            redirectToLogin();
+        });
+    </script>
+</body>
+</html>
