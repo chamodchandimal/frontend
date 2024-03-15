@@ -13,6 +13,9 @@
   object-fit: cover;
   z-index: 1;
 }
+.footer-frame{
+  width: 100%;
+}
 .scoot-scoot-rectangle {
   height: 64px;
   flex: 1;
@@ -526,7 +529,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) 0 0;
   gap: var(--gap-lgi);
-  margin-top: -29px;
+  margin-top: -55px;
 }
 .hjhjkfshjs-dvjhvjhsvkjhvdkjhvd-parent {
   display: flex;
@@ -707,3 +710,15 @@
   text-decoration: underline;  /* Add underline on hover if desired */
 }
 
+.frame,
+.logo-1-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.logo-1-icon {
+  width: 176px;
+  top: 1000px;
+  right:180px;
+  height: 183px;
+  object-fit: cover;
+}
