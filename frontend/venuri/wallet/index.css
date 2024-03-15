@@ -257,6 +257,7 @@
   position: relative;
   flex-shrink: 0;
   z-index: 1;
+
 }
 .logo {
   height: 37px;
@@ -268,6 +269,7 @@
   width: 27px;
   overflow: hidden;
   min-height: 23px;
+  margin-top: -25px;
 }
 .entypo-socialfacebook-icon,
 .social-media-vector-icons {
@@ -275,10 +277,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -25px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -25px;
 }
 .header-logo {
   display: flex;
@@ -364,8 +368,8 @@
   width: 176px;
   position: absolute;
   margin: 0 !important;
-  top: 19px;
-  right: 270px;
+  top: -10px;
+  right: 155px;
   height: 183px;
   object-fit: cover;
   z-index: 4;

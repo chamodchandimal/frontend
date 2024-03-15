@@ -217,8 +217,8 @@
 }
 .logo-1-icon {
   width: 176px;
-  top: 43px;
-  right: 265px;
+  top: 10px;
+  right: 210px;
   height: 183px;
   object-fit: cover;
 }
@@ -372,6 +372,7 @@
   position: relative;
   flex-shrink: 0;
   z-index: 1;
+  
 }
 .logo {
   height: 46.1px;
@@ -382,6 +383,7 @@
   height: 28.2px;
   width: 27px;
   overflow: hidden;
+  margin-top: 140px;
 }
 .entypo-socialfacebook-icon,
 .frame-home-wallet-registration {
@@ -389,10 +391,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: 140px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: 140px;
 }
 .via-or-email {
   display: flex;

@@ -7,23 +7,7 @@
   object-fit: cover;
   display: none;
 }
-.component-1-inner,
-.instance-child {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.instance-child {
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-.component-1-inner {
-  margin: 0 !important;
-}
+
 .empty-rectangle-icon {
   width: 51px;
   position: absolute;
@@ -124,11 +108,12 @@
   font-size: 24px;
   color: #000;
   font-family: Poppins;
+  
 }
 .cash-on-delivery-or-cod-icon-d {
   align-self: stretch;
   flex: 1;
-  position: relative;
+  position: center;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -213,11 +198,11 @@
 .line-separator,
 .logo-1-icon {
   position: absolute;
-  margin: 0 !important;
+  margin-right: -50px; 
 }
 .logo-1-icon {
   width: 176px;
-  top: 45px;
+  top: 10px;
   right: 265px;
   height: 183px;
   object-fit: cover;
@@ -383,6 +368,9 @@
   height: 28.9px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
+ 
+  
 }
 .entypo-socialfacebook-icon,
 .vector-icon {
@@ -390,10 +378,13 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
+
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -30px;
 }
 .fa6-brandssquare-twitter-parent {
   display: flex;
@@ -574,3 +565,4 @@
     box-sizing: border-box;
   }
 }
+

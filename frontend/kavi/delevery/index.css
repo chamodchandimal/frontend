@@ -221,8 +221,8 @@
 }
 .logo-1-icon {
   width: 176px;
-  top: 43px;
-  right: 271px;
+  top: 10px;
+  right:210px;
   height: 183px;
   object-fit: cover;
 }
@@ -388,6 +388,7 @@
   height: 28.3px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon,
 .for-your-queries-text {
@@ -395,6 +396,7 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;

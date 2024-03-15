@@ -3,7 +3,7 @@
   position: absolute;
   margin: 0 !important;
   top: 35px;
-  left: 1349px;
+  right: 12px;
   height: 59px;
   object-fit: cover;
   z-index: 1;
@@ -21,11 +21,11 @@
 }
 .inner-rectangle-wrapper {
   height: 100px;
-  width: 1440px;
+  width: 1900px;
   position: absolute;
   margin: 0 !important;
   top: -17px;
-  left: -189px;
+  left: 0px;
 }
 .home,
 .log-out,
@@ -51,32 +51,32 @@
 .update,
 .update-menu,
 .wallet {
-  height: 53px;
+  height: 30px;
 }
 .log-out,
 .order,
 .registration,
 .update,
 .update-menu {
-  height: 67px;
+  height: 30px;
 }
 .log-out,
 .order,
 .update,
 .update-menu {
-  height: 65px;
+  height: 30px;
 }
 .log-out,
 .order,
 .update {
-  height: 53px;
+  height: 30px;
 }
 .log-out,
 .update {
-  height: 45px;
+  height: 30px;
 }
 .log-out {
-  height: 40px;
+  height: 30px;
 }
 .home-registration-update-menu,
 .menu-frame {
@@ -88,7 +88,7 @@
   flex: 1;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 20px;
+  gap: 60px;
   z-index: 1;
 }
 .home-registration-update-menu {
@@ -222,12 +222,17 @@
   z-index: 1;
 }
 .pajamasmail {
-  margin: 0;
+  width: 33px;
+  height: 26.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
 }
-.pajamasmail,
+ 
 .tdesignlocation-icon {
-  width: 31px;
-  height: 24.7px;
+  width: 40px;
+  height: 40px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -295,24 +300,27 @@
   box-sizing: border-box;
 }
 .fa6-brandssquare-twitter-icon {
-  height: 24.2px;
-  width: 27.9px;
+  height: 25px;
+  width: 25px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
   min-height: 24px;
   z-index: 1;
+  margin-top: -60px;
 }
 .entypo-socialfacebook-icon,
 .vector-icon {
-  height: 21.2px;
-  width: 27.9px;
+  height: 25px;
+  width: 25px;
   position: relative;
   z-index: 1;
+  margin-top: -60px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -60px;
 }
 .fa6-brandssquare-twitter-parent {
   display: flex;
@@ -411,8 +419,8 @@
   width: 176px;
   position: absolute;
   margin: 0 !important;
-  top: 43px;
-  right: 297px;
+  top: 20px;
+  right: 475px;
   height: 183px;
   object-fit: cover;
   z-index: 4;

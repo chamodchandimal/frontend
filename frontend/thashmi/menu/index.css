@@ -11,7 +11,7 @@
 .typcnminus-wrapper {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: abell-imagesolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -28,26 +28,25 @@
   width: 51px;
   position: absolute;
   margin: 0 !important;
-  top: 35px;
-  left: 1349px;
-  height: 59px;
+  right: -5px;
+  height: 60px;
   object-fit: cover;
   z-index: 1;
 }
 .home,
 .wallet {
   position: relative;
-  line-height: 133.12%;
+  line-height: 100%;
 }
 .home {
-  height: 57px;
-  width: 83px;
+  height: 60px;
+  width: 60px;
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
 }
 .wallet {
-  height: 53px;
+  height: 60px;
 }
 .registration,
 .update-menu,
@@ -56,27 +55,27 @@
   align-items: flex-end;
 }
 .registration {
-  height: 67px;
+  height: 60px;
   position: relative;
-  line-height: 133.12%;
+  line-height: 100%;
 }
 .update-menu {
-  height: 65px;
+  height: 60px;
   white-space: nowrap;
 }
 .order,
 .update,
 .update-menu {
   position: relative;
-  line-height: 133.12%;
+  line-height: 100%;
 }
 .order {
-  height: 53px;
+  height: 60px;
   display: flex;
   align-items: flex-end;
 }
 .update {
-  height: 45px;
+  height: 60px;
 }
 .log-out,
 .string-hoppers,
@@ -85,16 +84,16 @@
   align-items: flex-end;
 }
 .log-out {
-  height: 40px;
+  height: 60px;
   position: relative;
-  line-height: 133.12%;
+  line-height: 100%;
   white-space: nowrap;
 }
 .string-hoppers {
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
-  gap: 20px;
+  gap: 80px;
   z-index: 1;
 }
 .component-1,
@@ -105,10 +104,10 @@
   max-width: 100%;
 }
 .vector {
-  width: 1070px;
+  width: 2000px;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 0 10px;
+  padding: 10 70 10px;
 }
 .component-1 {
   align-self: stretch;
@@ -117,7 +116,7 @@
   align-items: flex-end;
   padding: 17px 40px 6px 212px;
   position: sticky;
-  gap: 67px;
+  gap: 100px;
   top: 0;
   z-index: 99;
   text-align: left;
@@ -320,7 +319,7 @@
   z-index: 1;
 }
 .social-media-icons-child {
-  width: 230px;
+  width: 200px;
   height: 200px;
   position: relative;
   object-fit: cover;
@@ -489,8 +488,8 @@
   gap: 22px;
 }
 .queries-frame-icon {
-  width: 230.9px;
-  height: 201px;
+  width: 200px;
+  height: 200px;
   position: relative;
   object-fit: contain;
   z-index: 3;
@@ -668,13 +667,14 @@
   object-fit: cover;
   z-index: 3;
 }
+
 .email-address1 {
   width: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  justify-content: flex-start;
+  min-height: 426px;
   max-width: 100%;
 }
 .phone-icon {
@@ -707,7 +707,7 @@
   font-weight: 600;
 }
 .pajamasmailtdesignlocation {
-  width: 63px;
+  width: 100px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -800,7 +800,7 @@
   height: 4.8px;
   position: relative;
   z-index: 1;
-  margin-top: -17px;
+  margin-top: 30px;
 }
 .typcnminus4 {
   height: 29px;
@@ -1051,12 +1051,12 @@
   font-weight: 600;
 }
 .string-hoppers-wrapper {
-  width: 49px;
+  width: 500px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 6px 0 0;
+  padding: 0 10px 0 0;
   box-sizing: border-box;
 }
 .cholestrol-free5 {
@@ -1617,7 +1617,7 @@
   font-weight: 600;
 }
 .string-hoppers-frame {
-  width: 61px;
+  width: 610px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1969,8 +1969,8 @@
   width: 230px;
   margin: 0 !important;
   position: absolute;
-  top: 51px;
-  right: 57px;
+  top: -1650px;
+  right: -830px;
   flex-direction: row;
   background-image: url(./public/rectangle-11@2x.png);
   background-size: cover;
@@ -2508,13 +2508,13 @@
   z-index: 1;
 }
 .logo1 {
-  height: 37px;
+  height: 40px;
   font-weight: 500;
   display: inline-block;
 }
 .fa6-brandssquare-twitter-icon {
-  height: 22.9px;
-  width: 27px;
+  height: 30px;
+  width: 30px;
   overflow: hidden;
   min-height: 23px;
 }
@@ -2613,8 +2613,8 @@
   width: 176px;
   position: absolute;
   margin: 0 !important;
-  top: 24px;
-  right: 272px;
+  top: 50px;
+  right: 750px;
   height: 183px;
   object-fit: cover;
   z-index: 4;

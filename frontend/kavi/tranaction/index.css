@@ -130,8 +130,8 @@
   width: 176px;
   position: absolute;
   margin: 0 !important;
-  top: 39px;
-  right: 274px;
+  top: 10px;
+  right: 210px;
   height: 183px;
   object-fit: cover;
 }
@@ -299,6 +299,7 @@
   height: 28.9px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon,
 .rectangle-instance-icon {
@@ -306,10 +307,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -30px;
 }
 .fabrandssquaretwitter-vector-e {
   display: flex;

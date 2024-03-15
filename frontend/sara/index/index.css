@@ -565,13 +565,13 @@
     box-sizing: border-box;
   }
   .footer {
-    gap: var(--gap-8xl);
+    gap: var(--gap-100000xl);
   }
   .rider {
     gap: 277px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .component-1 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

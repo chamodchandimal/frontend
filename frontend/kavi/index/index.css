@@ -372,12 +372,13 @@
   height: 37px;
   position: absolute;
   margin: 0 !important;
-  top: -31px;
-  left: 2px;
-  font-weight: 500;
+  top: -200px; /* Adjust the top value as needed */
+  right: 1000px; /* Adjust the right value as needed */
+  font-weight: 50;
   display: inline-block;
   z-index: 1;
 }
+
 .chsghjsdgjvhsdgd-jhvj-ideikshf,
 .dbv-dvbd-dsjhalk,
 .dhvghsvj-dsjhksj-sdh,
@@ -399,12 +400,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  
 }
 .header-text {
-  width: 324px;
+  width: 100px;
   position: relative;
-  max-width: 109%;
+  max-width: 10%;
   flex-shrink: 0;
+  
 }
 .header-text-wrapper {
   align-self: stretch;
@@ -418,6 +421,7 @@
   flex-shrink: 0;
   min-height: 23px;
   z-index: 1;
+  margin-top: -60px;
 }
 .entypo-socialfacebook-icon,
 .vector-icon {
@@ -425,10 +429,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -60px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -60px;
 }
 .fa6-brandssquare-twitter-parent {
   display: flex;
@@ -600,7 +606,7 @@
   width: 1050px;
   margin: 0 !important;
   position: absolute;
-  top: 17px;
+  top: 12px;
   left: 355px;
   align-items: flex-end;
   justify-content: space-between;
@@ -618,7 +624,7 @@
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-black);
-  font-family: var(--font-poppins);
+  font-family: var(--font-poppins)
 }
 .span {
   color: var(--color-white);
@@ -854,4 +860,7 @@
   .pexels-photo-by-ella-olsson-parent {
     gap: 49px;
   }
+
+
+  
 }

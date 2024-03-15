@@ -215,8 +215,8 @@
 }
 .logo-1-icon {
   position: absolute;
-  top: 0;
-  left: 999px;
+  top: 10px;
+  right: 210px;
   width: 176px;
   height: 183px;
   object-fit: cover;
@@ -385,6 +385,7 @@
   height: 28.3px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon,
 .fabrandssquaretwitter-vectoren-icon {
@@ -392,10 +393,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -30px;
 }
 .fabrandssquaretwitter-vectoren {
   display: flex;

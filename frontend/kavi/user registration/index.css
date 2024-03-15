@@ -303,8 +303,8 @@
 }
 .logo-1-icon {
   width: 176px;
-  top: 54px;
-  right: 268px;
+  top: 10px;
+  right: 210px;
   height: 183px;
   object-fit: cover;
 }
@@ -460,6 +460,7 @@
   position: relative;
   flex-shrink: 0;
   z-index: 1;
+  
 }
 .logo {
   height: 47.3px;
@@ -470,6 +471,7 @@
   height: 28.9px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon,
 .footer-frame-icon2 {
@@ -477,10 +479,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -30px;
 }
 .social-media-logo {
   display: flex;

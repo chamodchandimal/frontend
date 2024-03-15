@@ -16,90 +16,21 @@
   position: absolute;
   margin: 0 !important;
   top: 35px;
-  left: 1349px;
+  left: 1380px;
   height: 59px;
   object-fit: cover;
   z-index: 1;
 }
-.logout-button {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-.logout-button-wrapper {
-  height: 100px;
-  width: 1440px;
-  position: absolute;
-  margin: 0 !important;
-  top: -17px;
-  right: -252.5px;
-}
-.home,
-.log-out,
-.order,
-.registration,
-.update,
-.update-menu,
-.wallet {
-  position: relative;
-  line-height: 133.12%;
-  display: flex;
-  align-items: flex-end;
-  white-space: nowrap;
-}
-.home {
-  height: 57px;
-  width: 83px;
-  flex-shrink: 0;
-}
-.log-out,
-.order,
-.registration,
-.update,
-.update-menu,
-.wallet {
-  height: 53px;
-}
-.log-out,
-.order,
-.registration,
-.update,
-.update-menu {
-  height: 67px;
-}
-.log-out,
-.order,
-.update,
-.update-menu {
-  height: 65px;
-}
-.log-out,
-.order,
-.update {
-  height: 53px;
-}
-.log-out,
-.update {
-  height: 45px;
-}
-.log-out {
-  height: 40px;
-}
+
 .home-wallet-registration-updat {
   flex: 1;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 20px;
+  gap: 67px;
   max-width: 100%;
-  z-index: 1;
+  z-index: 99;
 }
 .order-update-frame,
 .sub-menu-frame {
@@ -129,11 +60,11 @@
 .component-1 {
   width: 1629px;
   background-color: rgba(255, 255, 255, 0.75);
-  align-items: flex-end;
+  align-items:left;
   justify-content: flex-start;
-  padding: 17px 212px 5px;
+  padding: 50px 200px 6px;
   position: relative;
-  gap: 67px;
+  gap: 50px;
   max-width: 106%;
   flex-shrink: 0;
   z-index: 1;
@@ -141,7 +72,7 @@
 .base-frame,
 .header-frame {
   align-items: flex-start;
-  padding: 0;
+  padding: 10;
 }
 .header-frame {
   width: 1534px;
@@ -328,6 +259,7 @@
   height: 29.3px;
   width: 27px;
   overflow: hidden;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon,
 .vector-brand-frame {
@@ -335,10 +267,12 @@
   width: 27px;
   position: relative;
   z-index: 1;
+  margin-top: -30px;
 }
 .entypo-socialfacebook-icon {
   overflow: hidden;
   flex-shrink: 0;
+  margin-top: -30px;
 }
 .logo-rectangle1 {
   display: flex;
@@ -426,8 +360,8 @@
   width: 176px;
   position: absolute;
   margin: 0 !important;
-  top: 58px;
-  right: 288px;
+  top: 10px;
+  right: 210px;
   height: 183px;
   object-fit: cover;
   z-index: 5;

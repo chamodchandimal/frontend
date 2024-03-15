@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../menu"
+		},
+		{
+			"path": "../../modify"
+		},
+		{
+			"path": "../../order bu"
+		},
+		{
+			"path": "../../tracking"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "index"
+	}
+}
