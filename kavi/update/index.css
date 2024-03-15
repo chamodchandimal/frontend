@@ -1,0 +1,1051 @@
+.image-2-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.rectangle-vector-child {
+  width: 200px;
+  position: absolute;
+  margin: 0 !important;
+  top: -42px;
+  right: 93px;
+  border-radius: 15px;
+  height: 64px;
+  z-index: 1;
+}
+.web-capture-21-11-2023-10557-w-icon {
+  width: 255px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -60px;
+  left: -253px;
+  height: 222px;
+  object-fit: cover;
+  z-index: 1;
+}
+.span {
+  color: #fff;
+}
+.to-your-table {
+  color: #cfd1e9;
+}
+.from-kitchen-to-container {
+  margin: 0;
+  height: 145px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.12%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangle-vector,
+.rectangle-vector-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-vector {
+  width: 486px;
+  justify-content: flex-start;
+  position: relative;
+}
+.rectangle-vector-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.icon {
+  width: 0;
+  height: 0;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent {
+  width: 903px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  gap: 18px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 72px;
+  color: #b5dde9;
+  font-family: "Crimson Pro";
+}
+.frame-child {
+  width: 959px;
+  height: 727px;
+  position: relative;
+  background-color: rgba(217, 217, 217, 0.6);
+  display: none;
+  max-width: 100%;
+}
+.account-no-input {
+  height: 98px;
+  width: 98px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.update-your-account {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.12%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 237px;
+  max-width: 100%;
+  z-index: 2;
+}
+.bank-label,
+.rectangle-branch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-branch {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 52px;
+}
+.bank-label {
+  width: 527px;
+  align-items: flex-start;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+  min-height: 103px;
+}
+.frame-item,
+.rectangle-background {
+  height: 68px;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.frame-item {
+  width: 249px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 4px 6px 0;
+  box-sizing: border-box;
+  font-family: "Crimson Pro";
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+}
+.rectangle-background {
+  flex: 1;
+  position: relative;
+  min-width: 394px;
+  max-width: 100%;
+}
+.frame-group,
+.home-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-group {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.home-frame {
+  align-self: stretch;
+  padding: 0 0 0 6px;
+  box-sizing: border-box;
+  min-height: 71px;
+}
+.phone-input-field {
+  width: 249px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.phone-no {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: "Crimson Pro";
+  font-size: 36px;
+  background-color: transparent;
+  align-self: stretch;
+  height: 65px;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 153px;
+  z-index: 3;
+  margin-top: -63px;
+}
+.user-profile-frame,
+.user-profile-frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.user-profile-frame {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+}
+.user-profile-frame-wrapper {
+  height: 75px;
+  width: 255px;
+  align-items: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.bank-label-text {
+  height: 68px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  min-width: 394px;
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+  max-width: 100%;
+}
+.account-branch-frame,
+.password {
+  align-self: stretch;
+  position: relative;
+}
+.account-branch-frame {
+  flex: 1;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.password {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: "Crimson Pro";
+  font-size: 36px;
+  background-color: transparent;
+  height: 73px;
+  line-height: 133.12%;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 152px;
+  z-index: 3;
+  margin-top: -60px;
+}
+.join-registration-frame,
+.update-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.update-navbar {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+}
+.join-registration-frame {
+  height: 91px;
+  width: 253px;
+  align-items: flex-start;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.finance-icon-rectangle {
+  height: 68px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  min-width: 394px;
+  max-width: 100%;
+  z-index: 2;
+}
+.form-container,
+.update-container {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.form-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 26px;
+}
+.update-container {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+.bank,
+.navigation-update-panel {
+  align-self: stretch;
+  position: relative;
+}
+.navigation-update-panel {
+  flex: 1;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.bank {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: "Crimson Pro";
+  font-size: 36px;
+  background-color: transparent;
+  height: 71px;
+  line-height: 133.12%;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 152px;
+  z-index: 3;
+  margin-top: -63px;
+}
+.website-logo-frame,
+.welcome-registration-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.website-logo-frame {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 0 0 2px;
+}
+.welcome-registration-frame {
+  height: 91px;
+  width: 255px;
+  align-items: flex-start;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+}
+.bottom-bar-frame {
+  height: 68px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  min-width: 394px;
+  max-width: 100%;
+  z-index: 2;
+}
+.component-instance,
+.reusable-component {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.reusable-component {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin-top: -4px;
+}
+.component-instance {
+  flex-direction: column;
+}
+.branch,
+.registration-frame {
+  align-self: stretch;
+  position: relative;
+}
+.registration-frame {
+  flex: 1;
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.branch {
+  height: 74px;
+  font-size: inherit;
+  line-height: 133.12%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+  margin: -61px 0 0;
+}
+.home-frame1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.home-frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 249px;
+  height: 68px;
+  z-index: 2;
+}
+.account-no {
+  margin: 0;
+  position: absolute;
+  top: 15px;
+  left: 6px;
+  font-size: inherit;
+  line-height: 133.12%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 243px;
+  height: 65px;
+  z-index: 3;
+}
+.home-frame2 {
+  align-self: stretch;
+  height: 80px;
+  position: relative;
+}
+.update-menu {
+  height: 172px;
+  width: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  min-width: 249px;
+}
+.phone-rectangle,
+.phone-rectangle1 {
+  border: 0;
+  outline: 0;
+  background-color: #d9d9d9;
+  align-self: stretch;
+  height: 68px;
+  position: relative;
+  min-width: 250px;
+  z-index: 2;
+}
+.branch-frame,
+.layout-component-group,
+.shape-instance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.branch-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 19px;
+  min-width: 394px;
+}
+.layout-component-group,
+.shape-instance {
+  flex-direction: row;
+}
+.layout-component-group {
+  flex: 1;
+  gap: 26px;
+}
+.shape-instance {
+  align-self: stretch;
+  padding: 0 0 0 6px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.rectangle-parent {
+  width: 959px;
+  background-color: rgba(217, 217, 217, 0.6);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 22px 35px 46px 37px;
+  gap: 16px;
+  z-index: 1;
+}
+.main-frame,
+.main-frame-inner,
+.rectangle-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.main-frame-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 38px 0 20px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: "Crimson Pro";
+}
+.main-frame {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 85px 0 39px;
+  gap: 64px;
+  background-image: url(./public/image-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.name-text-box,
+.name-text-box-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.name-text-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name-text-box-wrapper {
+  margin: 0 !important;
+}
+.logo-rectangle-icon {
+  width: 51px;
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 1349px;
+  height: 59px;
+  object-fit: cover;
+  z-index: 1;
+}
+.home,
+.wallet {
+  position: relative;
+  line-height: 133.12%;
+}
+.home {
+  height: 57px;
+  width: 83px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.wallet {
+  height: 53px;
+}
+.registration,
+.update-menu1,
+.wallet {
+  display: flex;
+  align-items: flex-end;
+}
+.registration {
+  height: 67px;
+  position: relative;
+  line-height: 133.12%;
+}
+.update-menu1 {
+  height: 65px;
+  white-space: nowrap;
+}
+.order,
+.update-menu1,
+.update1 {
+  position: relative;
+  line-height: 133.12%;
+}
+.order {
+  height: 53px;
+  display: flex;
+  align-items: flex-end;
+}
+.update1 {
+  height: 45px;
+}
+.company-text,
+.log-out,
+.update1 {
+  display: flex;
+  align-items: flex-end;
+}
+.log-out {
+  height: 40px;
+  position: relative;
+  line-height: 133.12%;
+  white-space: nowrap;
+}
+.company-text {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.component-8,
+.footer-instance {
+  width: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-8 {
+  position: sticky;
+  top: 0;
+  left: -1px;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 17px 40px 6px 212px;
+  gap: 67px;
+  z-index: 99;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+.web-capture-21-11-2023-10557-w-icon1 {
+  width: 161px;
+  position: absolute;
+  margin: 0 !important;
+  top: 52px;
+  right: 277px;
+  height: 151px;
+  object-fit: cover;
+}
+.privacy-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.company {
+  height: 42.2px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.about-us,
+.contact,
+.help,
+.jobs,
+.privacy-notice,
+.terms-condition {
+  margin: 0;
+}
+.help-about-us-container {
+  height: 161px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.help-text,
+.logout-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.help-text {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+}
+.logout-frame {
+  width: 178px;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.download-the-app {
+  flex: 1;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 500;
+  z-index: 1;
+}
+.webcapture-logo {
+  height: 22px;
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  height: 42.2px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.company-text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px;
+}
+.pajamasmail-icon,
+.primephone-icon,
+.tdesignlocation-icon {
+  width: 32px;
+  height: 28.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pajamasmail-icon,
+.tdesignlocation-icon {
+  width: 30px;
+  height: 26.4px;
+}
+.kvmetgmailcom-sri-lanka {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.u {
+  z-index: 3;
+}
+.kvmet2023gmailcom,
+.sri-lanka,
+.u {
+  height: 42.2px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.kvmet2023gmailcom {
+  white-space: nowrap;
+  z-index: 4;
+}
+.sri-lanka {
+  z-index: 1;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.queries-call-us-via-or-email-u {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.pajamasmailtdesignlocation,
+.primephone,
+.queries-call-us-via-or-email-u {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primephone {
+  flex-direction: row;
+  gap: 24px;
+}
+.pajamasmailtdesignlocation {
+  height: 168px;
+  width: 352px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.fa6-brandssquare-twitter-icon,
+.logo {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logo {
+  height: 42.2px;
+  font-weight: 500;
+  display: inline-block;
+}
+.fa6-brandssquare-twitter-icon {
+  height: 25.8px;
+  width: 27px;
+  overflow: hidden;
+}
+.entypo-socialfacebook-icon,
+.fabrandssquaretwitter-vectoren-icon {
+  height: 22.6px;
+  width: 27px;
+  position: relative;
+  z-index: 1;
+}
+.entypo-socialfacebook-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-entry-social-facebook {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 19px;
+}
+.download-frame,
+.for-your-queries-callus-via-or {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 111px;
+}
+.download-frame {
+  flex-direction: row;
+  gap: 46px;
+  max-width: 100%;
+}
+.terms-text-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #3f4e4f;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.terms-text {
+  width: 1248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  max-width: 100%;
+}
+.chsghjsdgjvhsdgd-jhvj-ideikshf,
+.dbv-dvbd-dsjhalk,
+.dhvghsvj-dsjhksj-sdh,
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd1 {
+  margin: 0;
+}
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd {
+  width: 324px;
+  height: 147.6px;
+  position: relative;
+  font-weight: 300;
+  display: none;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.for-your-queriescall {
+  margin: 0;
+}
+.for-your-queriescall-container {
+  width: 762px;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.about-us-text,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.footer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 33px 33px 47px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 48px;
+  z-index: 1;
+}
+.about-us-text {
+  position: absolute;
+  top: 1079px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  font-size: 20px;
+  color: #3f4e4f;
+  font-family: Inter;
+}
+.update {
+  width: 100%;
+  height: 1457px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .component-8 {
+    padding-left: 106px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .from-kitchen-to-container {
+    font-size: 58px;
+    line-height: 77px;
+  }
+  .account-no,
+  .bank,
+  .branch,
+  .password,
+  .phone-no,
+  .update-your-account {
+    font-size: 29px;
+    line-height: 38px;
+  }
+  .update-menu {
+    flex: 1;
+  }
+  .download-frame,
+  .layout-component-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-branch {
+    gap: 26px;
+  }
+  .bank-label-text,
+  .bottom-bar-frame,
+  .branch-frame,
+  .finance-icon-rectangle,
+  .rectangle-background {
+    min-width: 100%;
+  }
+  .main-frame {
+    gap: 32px;
+  }
+  .company-text {
+    display: none;
+  }
+  .footer-instance {
+    width: 0;
+  }
+  .component-8 {
+    gap: 33px;
+    padding-left: 53px;
+    box-sizing: border-box;
+  }
+  .download-frame {
+    gap: 23px;
+  }
+  .footer {
+    gap: 24px;
+  }
+  .update {
+    height: auto;
+    min-height: 1457;
+  }
+}
+@media screen and (max-width: 450px) {
+  .from-kitchen-to-container {
+    font-size: 43px;
+    line-height: 58px;
+  }
+  .account-no,
+  .bank,
+  .branch,
+  .password,
+  .phone-no,
+  .update-your-account {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .main-frame {
+    gap: 16px;
+  }
+  .component-8 {
+    gap: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .company,
+  .help-about-us-container {
+    font-size: 16px;
+  }
+  .download-the-app {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-us,
+  .hjhjkfshjs-dvjhvjhsvkjhvdkjhvd,
+  .kvmet2023gmailcom,
+  .logo,
+  .sri-lanka,
+  .u {
+    font-size: 16px;
+  }
+  .for-your-queriescall-container {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

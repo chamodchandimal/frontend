@@ -1,0 +1,576 @@
+.download-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.component-1-inner,
+.instance-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.instance-child {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.component-1-inner {
+  margin: 0 !important;
+}
+.empty-rectangle-icon {
+  width: 51px;
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 1349px;
+  height: 59px;
+  object-fit: cover;
+  z-index: 1;
+}
+.home,
+.wallet {
+  position: relative;
+  line-height: 133.12%;
+}
+.home {
+  height: 57px;
+  width: 83px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.wallet {
+  height: 53px;
+}
+.registration,
+.update-menu,
+.wallet {
+  display: flex;
+  align-items: flex-end;
+}
+.registration {
+  height: 67px;
+  position: relative;
+  line-height: 133.12%;
+}
+.update-menu {
+  height: 65px;
+  white-space: nowrap;
+}
+.order,
+.update,
+.update-menu {
+  position: relative;
+  line-height: 133.12%;
+}
+.order {
+  height: 53px;
+  display: flex;
+  align-items: flex-end;
+}
+.update {
+  height: 45px;
+}
+.log-out,
+.logout-frame,
+.update {
+  display: flex;
+  align-items: flex-end;
+}
+.log-out {
+  height: 40px;
+  position: relative;
+  line-height: 133.12%;
+  white-space: nowrap;
+}
+.logout-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.component-1,
+.home-wallet-registration-updat {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home-wallet-registration-updat {
+  width: 1070px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 10px;
+}
+.component-1 {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.75);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 17px 40px 6px 212px;
+  position: sticky;
+  gap: 67px;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+.cash-on-delivery-or-cod-icon-d {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rice-curry {
+  position: relative;
+  font-size: 25px;
+  line-height: 133.12%;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+}
+.rice-curry-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 16px;
+  background-color: #d27c2c;
+  width: 228px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rice-curry-wrapper:hover {
+  background-color: #b86312;
+}
+.footer-frame,
+.logo-rectangle {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo-rectangle {
+  align-self: stretch;
+  width: 282px;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+.footer-frame {
+  width: 388px;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.download-1-parent,
+.wallet-admin-inner {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.download-1-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1px 189px 0;
+  gap: 216px;
+  background-image: url(./public/download-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.wallet-admin-inner {
+  height: 722px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+}
+.line-separator,
+.logo-1-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.logo-1-icon {
+  width: 176px;
+  top: 45px;
+  right: 265px;
+  height: 183px;
+  object-fit: cover;
+}
+.line-separator {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.company {
+  height: 47.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.about-us,
+.contact,
+.help,
+.jobs,
+.privacy-notice,
+.terms-condition {
+  margin: 0;
+}
+.help-about-us-container {
+  height: 180.7px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.company-parent,
+.help-about-us-jobs-contact-pri-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.help-about-us-jobs-contact-pri-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+}
+.company-parent {
+  width: 178px;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.download-the-app {
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 500;
+  z-index: 1;
+}
+.download-the-app-wrapper {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  height: 47.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.contact-us-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px;
+}
+.pajamasmail-icon,
+.primephone-icon,
+.tdesignlocation-icon {
+  width: 32px;
+  height: 31.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pajamasmail-icon,
+.tdesignlocation-icon {
+  width: 30px;
+  height: 29.6px;
+}
+.primephone-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.div {
+  height: 47.3px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.kvmet2023gmailcom {
+  white-space: nowrap;
+}
+.kvmet2023gmailcom,
+.sri-lanka {
+  height: 47.3px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.frame-wrapper {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.frame-group,
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  flex-direction: row;
+  gap: 24px;
+}
+.frame-parent {
+  height: 189px;
+  width: 352px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.fa6-brandssquare-twitter-icon,
+.logo {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logo {
+  height: 47.3px;
+  font-weight: 500;
+  display: inline-block;
+}
+.fa6-brandssquare-twitter-icon {
+  height: 28.9px;
+  width: 27px;
+  overflow: hidden;
+}
+.entypo-socialfacebook-icon,
+.vector-icon {
+  height: 25.3px;
+  width: 27px;
+  position: relative;
+  z-index: 1;
+}
+.entypo-socialfacebook-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fa6-brandssquare-twitter-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 19px;
+}
+.location-frame,
+.logo-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 125px;
+}
+.location-frame {
+  flex-direction: row;
+  gap: 46px;
+  max-width: 100%;
+}
+.contact-us-text-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #3f4e4f;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.contact-us-text {
+  width: 1248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 100%;
+}
+.chsghjsdgjvhsdgd-jhvj-ideikshf,
+.dbv-dvbd-dsjhalk,
+.dhvghsvj-dsjhksj-sdh,
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd1 {
+  margin: 0;
+}
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd {
+  width: 324px;
+  height: 165.6px;
+  position: relative;
+  font-weight: 300;
+  display: none;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.for-your-queriescall {
+  margin: 0;
+}
+.for-your-queriescall-container {
+  width: 762px;
+  height: 32.8px;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-decoration: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 37px 21px 53px 20px;
+  box-sizing: border-box;
+  gap: 54px;
+  max-width: 100%;
+  z-index: 1;
+}
+.download-the-app-text,
+.footer,
+.wallet-admin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.download-the-app-text {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -3px;
+  text-align: left;
+  font-size: 20px;
+  color: #3f4e4f;
+  font-family: Inter;
+}
+.wallet-admin {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .component-1 {
+    padding-left: 106px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .location-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .logout-frame {
+    display: none;
+  }
+  .home-wallet-registration-updat {
+    width: 0;
+  }
+  .component-1 {
+    gap: 33px;
+    padding-left: 53px;
+    box-sizing: border-box;
+  }
+  .download-1-parent {
+    gap: 108px;
+    padding-bottom: 123px;
+    box-sizing: border-box;
+  }
+  .location-frame {
+    gap: 23px;
+  }
+  .footer {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .component-1 {
+    gap: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .download-1-parent {
+    gap: 54px;
+  }
+  .company,
+  .help-about-us-container {
+    font-size: 16px;
+  }
+  .download-the-app {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-us,
+  .div,
+  .hjhjkfshjs-dvjhvjhsvkjhvdkjhvd,
+  .kvmet2023gmailcom,
+  .logo,
+  .sri-lanka {
+    font-size: 16px;
+  }
+  .for-your-queriescall-container {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .footer {
+    padding-top: 23px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

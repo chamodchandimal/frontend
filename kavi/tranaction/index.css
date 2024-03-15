@@ -1,0 +1,484 @@
+.services-card-and-payment-serv {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-1-inner,
+.instance-child,
+.services-card-and-payment-serv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.instance-child {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.component-1-inner {
+  margin: 0 !important;
+}
+.rectangle-shape-icon {
+  width: 51px;
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 1349px;
+  height: 59px;
+  object-fit: cover;
+  z-index: 1;
+}
+.home,
+.wallet {
+  position: relative;
+  line-height: 133.12%;
+  display: flex;
+  align-items: flex-end;
+}
+.home {
+  height: 57px;
+  width: 83px;
+  flex-shrink: 0;
+}
+.wallet {
+  height: 53px;
+}
+.registration {
+  height: 67px;
+}
+.log-out,
+.order,
+.registration,
+.update,
+.update-menu {
+  position: relative;
+  line-height: 133.12%;
+  display: flex;
+  align-items: flex-end;
+}
+.update-menu {
+  height: 65px;
+  white-space: nowrap;
+}
+.log-out,
+.order,
+.update {
+  height: 53px;
+}
+.log-out,
+.update {
+  height: 45px;
+}
+.log-out {
+  height: 40px;
+  white-space: nowrap;
+}
+.home-wallet-registration-updat {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.frame-home-wallet-registration {
+  width: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-1,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.component-1 {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.75);
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 17px 40px 6px 212px;
+  position: sticky;
+  gap: 67px;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+.frame-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 607px;
+  position: relative;
+}
+.logo-1-icon {
+  width: 176px;
+  position: absolute;
+  margin: 0 !important;
+  top: 39px;
+  right: 274px;
+  height: 183px;
+  object-fit: cover;
+}
+.rectangle-footer-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.company {
+  height: 47.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.about-us,
+.contact,
+.help,
+.jobs,
+.privacy-notice,
+.terms-condition {
+  margin: 0;
+}
+.help-about-us-container {
+  height: 180.7px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.download-the-app-text,
+.help-about-us-jobs-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.download-the-app-text {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+}
+.help-about-us-jobs-contact {
+  width: 178px;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.download-the-app {
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 500;
+  z-index: 1;
+}
+.logo-frame-fabrandsquaretwitte {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  height: 47.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.logo-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px;
+}
+.pajamasmail-icon,
+.primephone-icon,
+.tdesignlocation-icon {
+  width: 32px;
+  height: 31.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pajamasmail-icon,
+.tdesignlocation-icon {
+  width: 30px;
+  height: 29.6px;
+}
+.pajamasmail-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.logo-text {
+  height: 47.3px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.kvmet2023gmailcom {
+  white-space: nowrap;
+}
+.kvmet2023gmailcom,
+.sri-lanka {
+  height: 47.3px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.kvmetgmailcom-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.srilanka-frame {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.footer-frame,
+.location-frame,
+.srilanka-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location-frame {
+  flex-direction: row;
+  gap: 24px;
+}
+.footer-frame {
+  height: 189px;
+  width: 352px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.fa6-brandssquare-twitter-icon,
+.logo {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logo {
+  height: 47.3px;
+  font-weight: 500;
+  display: inline-block;
+}
+.fa6-brandssquare-twitter-icon {
+  height: 28.9px;
+  width: 27px;
+  overflow: hidden;
+}
+.entypo-socialfacebook-icon,
+.rectangle-instance-icon {
+  height: 25.3px;
+  width: 27px;
+  position: relative;
+  z-index: 1;
+}
+.entypo-socialfacebook-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fabrandssquaretwitter-vector-e {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 19px;
+}
+.company-text,
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 125px;
+}
+.company-text {
+  flex-direction: row;
+  gap: 46px;
+  max-width: 100%;
+}
+.logo-text1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #3f4e4f;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frame-help-about-us-jobs-conta {
+  width: 1248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 100%;
+}
+.chsghjsdgjvhsdgd-jhvj-ideikshf,
+.dbv-dvbd-dsjhalk,
+.dhvghsvj-dsjhksj-sdh,
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd1 {
+  margin: 0;
+}
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd {
+  width: 324px;
+  height: 165.6px;
+  position: relative;
+  font-weight: 300;
+  display: none;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.for-your-queriescall {
+  margin: 0;
+}
+.for-your-queriescall-container {
+  width: 762px;
+  height: 32.8px;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-decoration: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 37px 37px 53px;
+  box-sizing: border-box;
+  gap: 54px;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer,
+.order-update,
+.transaction-admin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.order-update {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -5px;
+  text-align: left;
+  font-size: 20px;
+  color: #3f4e4f;
+  font-family: Inter;
+}
+.transaction-admin {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .component-1 {
+    padding-left: 106px;
+    box-sizing: border-box;
+  }
+  .company-text {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-wallet-registration-updat {
+    display: none;
+  }
+  .frame-home-wallet-registration {
+    width: 0;
+  }
+  .component-1 {
+    gap: 33px;
+    padding-left: 53px;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    padding-bottom: 395px;
+    box-sizing: border-box;
+  }
+  .company-text {
+    gap: 23px;
+  }
+  .footer {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .component-1 {
+    gap: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .company,
+  .help-about-us-container {
+    font-size: 16px;
+  }
+  .download-the-app {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-us,
+  .hjhjkfshjs-dvjhvjhsvkjhvdkjhvd,
+  .kvmet2023gmailcom,
+  .logo,
+  .logo-text,
+  .sri-lanka {
+    font-size: 16px;
+  }
+  .for-your-queriescall-container {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}

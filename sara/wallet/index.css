@@ -1,0 +1,525 @@
+.rectangle-d-icon {
+  width: 51px;
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 1349px;
+  height: 59px;
+  object-fit: cover;
+  z-index: 1;
+}
+.download-app-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.download-app-text-wrapper {
+  height: 100px;
+  width: 1440px;
+  position: absolute;
+  margin: 0 !important;
+  top: -17px;
+  right: -252.5px;
+}
+.home,
+.wallet {
+  position: relative;
+  line-height: 133.12%;
+  display: flex;
+  align-items: flex-end;
+}
+.home {
+  height: 57px;
+  width: 83px;
+  flex-shrink: 0;
+}
+.wallet {
+  height: 53px;
+}
+.registration {
+  height: 67px;
+}
+.log-out,
+.order,
+.registration,
+.update,
+.update-menu {
+  position: relative;
+  line-height: 133.12%;
+  display: flex;
+  align-items: flex-end;
+}
+.update-menu {
+  height: 65px;
+  white-space: nowrap;
+}
+.log-out,
+.order,
+.update {
+  height: 53px;
+}
+.log-out,
+.update {
+  height: 45px;
+}
+.log-out {
+  height: 40px;
+  white-space: nowrap;
+}
+.home-wallet-registration-menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  z-index: 1;
+}
+.company-info-frame,
+.frame-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.company-info-frame {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frame-e {
+  width: 1070px;
+  flex-direction: column;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+}
+.component-1,
+.frame-a,
+.frame-b {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.component-1 {
+  width: 1629px;
+  background-color: rgba(255, 255, 255, 0.75);
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 17px 212px 5px;
+  position: relative;
+  gap: 67px;
+  max-width: 106%;
+  flex-shrink: 0;
+}
+.frame-a,
+.frame-b {
+  align-items: flex-start;
+  padding: 0;
+}
+.frame-b {
+  width: 1535px;
+  justify-content: flex-start;
+  max-width: 108%;
+  flex-shrink: 0;
+}
+.frame-a {
+  align-self: stretch;
+  justify-content: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+.rider-tracking-child {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.rectangle-k {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.company {
+  width: 90.5px;
+  height: 48px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.about-us,
+.contact,
+.help,
+.jobs,
+.privacy-notice,
+.terms-condition {
+  margin: 0;
+}
+.help-about-us-container {
+  height: 183.2px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 1;
+}
+.text-link-frame-b,
+.text-link-frame-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-link-frame-d {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+}
+.text-link-frame-b {
+  width: 175px;
+  flex-direction: column;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+}
+.download-the-app {
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 500;
+  z-index: 1;
+}
+.footerframe {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  position: absolute;
+  top: 0;
+  left: 16.3px;
+  font-weight: 500;
+  display: inline-block;
+  width: 106.2px;
+  height: 48px;
+  z-index: 2;
+}
+.pajamasmail-icon,
+.primephone-icon,
+.tdesignlocation-icon {
+  width: 31.5px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.pajamasmail-icon,
+.tdesignlocation-icon {
+  width: 29.5px;
+  height: 30px;
+}
+.socialmediaicons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.kvmetgmailcom-srilankaframe {
+  width: 116px;
+  display: inline-block;
+  z-index: 3;
+}
+.kvmet2023gmailcom,
+.kvmetgmailcom-srilankaframe,
+.sri-lanka {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+}
+.kvmet2023gmailcom {
+  align-self: stretch;
+  z-index: 4;
+}
+.sri-lanka {
+  width: 77.7px;
+  display: inline-block;
+  z-index: 1;
+}
+.logorectangle {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.companylogo,
+.kvmetgmailcom-srilanka,
+.logorectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kvmetgmailcom-srilanka {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 4px 1px 0 0;
+}
+.companylogo {
+  position: absolute;
+  top: 43px;
+  left: 1px;
+  width: 272px;
+  height: 149px;
+  flex-direction: row;
+  gap: 22px;
+}
+.locationframe {
+  height: 192px;
+  width: 347px;
+  position: relative;
+  max-width: 100%;
+}
+.logo {
+  width: 47.2px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.fa6-brandssquare-twitter-icon {
+  height: 29.3px;
+  width: 26.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.entypo-socialfacebook-icon,
+.vectorshape-icon {
+  height: 25.7px;
+  width: 26.5px;
+  position: relative;
+  z-index: 1;
+}
+.entypo-socialfacebook-icon {
+  width: 26.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lineseparator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+  gap: 18px;
+}
+.callquerytext,
+.text-link-frame-a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callquerytext {
+  height: 203px;
+  flex-direction: column;
+  gap: 126px;
+}
+.text-link-frame-a {
+  flex-direction: row;
+  gap: 45px;
+  max-width: 100%;
+}
+.forqueriescallusoremail {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #3f4e4f;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.logo-text-frame {
+  width: 1227px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+  max-width: 100%;
+}
+.chsghjsdgjvhsdgd-jhvj-ideikshf,
+.dbv-dvbd-dsjhalk,
+.dhvghsvj-dsjhksj-sdh,
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd1 {
+  margin: 0;
+}
+.hjhjkfshjs-dvjhvjhsvkjhvdkjhvd {
+  width: 318.6px;
+  position: relative;
+  font-weight: 300;
+  display: none;
+  height: 168px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.for-your-queriescall {
+  margin: 0;
+}
+.for-your-queriescall-container {
+  width: 749.3px;
+  height: 33.3px;
+  position: relative;
+  line-height: 133.12%;
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  text-decoration: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 38px 21px 53px 20px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 55px;
+  max-width: 100%;
+}
+.logo-1-icon {
+  width: 176px;
+  position: absolute;
+  margin: 0 !important;
+  top: 56px;
+  right: 264px;
+  height: 183px;
+  object-fit: cover;
+  z-index: 5;
+}
+.social-media-logo-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+.footer-frame,
+.rider-tracking {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #3f4e4f;
+  font-family: Inter;
+}
+.rider-tracking {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 642px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .component-1 {
+    padding-left: 106px;
+    padding-right: 106px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .text-link-frame-a {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-wallet-registration-menu {
+    display: none;
+  }
+  .component-1 {
+    gap: 33px;
+    padding-left: 53px;
+    padding-right: 53px;
+    box-sizing: border-box;
+  }
+  .text-link-frame-a {
+    gap: 22px;
+  }
+  .footer {
+    gap: 27px;
+  }
+  .rider-tracking {
+    gap: 321px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .component-1 {
+    gap: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .company,
+  .help-about-us-container {
+    font-size: 16px;
+  }
+  .download-the-app {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contact-us,
+  .hjhjkfshjs-dvjhvjhsvkjhvdkjhvd,
+  .kvmet2023gmailcom,
+  .kvmetgmailcom-srilankaframe,
+  .logo,
+  .sri-lanka {
+    font-size: 16px;
+  }
+  .for-your-queriescall-container {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+  .rider-tracking {
+    gap: 160px;
+  }
+}

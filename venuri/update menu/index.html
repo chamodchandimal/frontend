@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson Pro:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4px;
+        letter-spacing: normal;
+        text-align: left;
+        font-size: 20px;
+        color: #3f4e4f;
+        font-family: Inter;
+      "
+    >
+      <header
+        style="
+          align-self: stretch;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: flex-start;
+          padding: 17px 40px 6px 138px;
+          box-sizing: border-box;
+          position: sticky;
+          gap: 46px;
+          top: 0;
+          z-index: 99;
+          max-width: 100%;
+          text-align: left;
+          font-size: 24px;
+          color: #000;
+          font-family: Poppins;
+        "
+      >
+        <div
+          style="
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0 !important;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              height: 100%;
+              width: 100%;
+              top: 0px;
+              right: 0px;
+              bottom: 0px;
+              left: 0px;
+              background-color: rgba(255, 255, 255, 0.75);
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            "
+          ></div>
+        </div>
+        <div
+          style="
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 0px 0px 10px;
+            box-sizing: border-box;
+            max-width: 100%;
+          "
+        >
+          <div
+            style="
+              align-self: stretch;
+              display: flex;
+              flex-direction: row;
+              align-items: flex-end;
+              justify-content: space-between;
+              gap: 20px;
+              z-index: 1;
+            "
+          >
+            <div style="position: relative; line-height: 133.12%"><a href="../index/index.html">Home</a></div>
+            <div
+              style="
+                height: 53px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+              "
+            >
+              <a href="../wallet/index.html">Wallet</a>
+            </div>
+            <div
+              style="
+                height: 67px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+                white-space: nowrap;
+              "
+            >
+              <a href="../tracking/index.html">Order Tracking</a>
+            </div>
+            <div
+              style="
+                height: 65px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+                white-space: nowrap;
+              "
+            >
+              <a href="../update menu/index.html">Update Menu</a>
+            </div>
+            <div
+              style="
+                height: 53px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+              "
+            >
+              <a href="../order/index.html">Order</a>
+            </div>
+            <div
+              style="
+                height: 45px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+                white-space: nowrap;
+              "
+            >
+              <a href="../update details/index.html">Update Details</a>
+            </div>
+            <div
+              style="
+                height: 40px;
+                position: relative;
+                line-height: 133.12%;
+                display: flex;
+                align-items: flex-end;
+                white-space: nowrap;
+              "
+            >
+              Log out
+            </div>
+          </div>
+        </div>
+        <img
+          style="
+            height: 59px;
+            width: 51px;
+            position: relative;
+            object-fit: cover;
+            z-index: 1;
+          "
+          loading="eager"
+          alt=""
+          src="./public/233866-1@2x.png"
+        />
+      </header>
+      <main
+        style="
+          width: 1280px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 0px 20px;
+          box-sizing: border-box;
+          gap: 42px;
+          min-height: 1542px;
+          max-width: 100%;
+        "
+      >
+        <section
+          style="
+            align-self: stretch;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 0px 0px 17px;
+            box-sizing: border-box;
+            max-width: 100%;
+          "
+        >
+          <img
+            style="
+              height: 427px;
+              flex: 1;
+              position: relative;
+              max-width: 100%;
+              overflow: hidden;
+              object-fit: cover;
+            "
+            loading="eager"
+            alt=""
+            src="./public/pexels-photo-by-igor-starkov@2x.png"
+          />
+        </section>
+        <section
+          style="
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 42px;
+            max-width: 100%;
+            text-align: left;
+            font-size: 20px;
+            color: #000;
+            font-family: Inter;
+          "
+        >
+          <div
+            style="
+              width: 311px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              gap: 20px;
+            "
+          >
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 22px;
+              "
+            >
+              <img
+                style="
+                  height: 55px;
+                  width: 55px;
+                  position: relative;
+                  border-radius: 2px;
+                "
+                loading="eager"
+                alt=""
+                src="./public/star-1.svg"
+              />
+
+              <b style="position: relative; line-height: 133.12%">4.7</b>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 22px;
+              "
+            >
+              <img
+                style="
+                  height: 51px;
+                  width: 47.2px;
+                  position: relative;
+                  overflow: hidden;
+                  flex-shrink: 0;
+                "
+                loading="eager"
+                alt=""
+                src="./public/carbondelivery.svg"
+              />
+
+              <b style="position: relative; line-height: 133.12%">Delivery</b>
+            </div>
+          </div>
+          <div
+            style="
+              align-self: stretch;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: flex-start;
+              max-width: 100%;
+              font-size: 45px;
+              color: #2c3639;
+            "
+          >
+            <h1
+              style="
+                margin: 0;
+                width: 428px;
+                height: 66px;
+                position: relative;
+                font-size: inherit;
+                line-height: 133.12%;
+                font-weight: 700;
+                font-family: inherit;
+                display: inline-block;
+                flex-shrink: 0;
+                max-width: 100%;
+              "
+            >
+              Canvel Restaurant
+            </h1>
+            <div
+              style="
+                align-self: stretch;
+                height: 138px;
+                position: relative;
+                font-size: 25px;
+                line-height: 133.12%;
+                color: rgba(0, 0, 0, 0.45);
+                display: inline-block;
+                flex-shrink: 0;
+              "
+            >
+              Step into a world where culinary excellence meets contemporary
+              charm at Savory Haven. Our restaurant is a haven for food
+              enthusiasts, designed with a blend of modern aesthetics and
+              classic elegance. Ambient lighting, plush seating, and tasteful
+              decor create an inviting space for you to unwind and indulge in a
+              memorable dining experience.
+            </div>
+          </div>
+        </section>
+        <section
+          style="
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 25px;
+            max-width: 100%;
+            text-align: left;
+            font-size: 72px;
+            color: #000;
+            font-family: 'Crimson Pro';
+          "
+        >
+          <h1
+            style="
+              margin: 0;
+              position: relative;
+              font-size: inherit;
+              line-height: 133.12%;
+              font-weight: 700;
+              font-family: inherit;
+              display: inline-block;
+              max-width: 100%;
+            "
+          >
+            Update Menu
+          </h1>
+          <div
+            style="
+              align-self: stretch;
+              border-radius: 50px;
+              background-color: rgba(0, 0, 0, 0.25);
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: flex-start;
+              padding: 60px 21px 140px 20px;
+              box-sizing: border-box;
+              gap: 29px;
+              max-width: 100%;
+              font-size: 45px;
+              font-family: Inter;
+            "
+          >
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 0px 2px 0px 0px;
+                box-sizing: border-box;
+                max-width: 100%;
+              "
+            >
+              <div
+                style="
+                  width: 929px;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  justify-content: space-between;
+                  gap: 20px;
+                  max-width: 100%;
+                "
+              >
+                <h1
+                  style="
+                    margin: 0;
+                    position: relative;
+                    font-size: inherit;
+                    line-height: 133.12%;
+                    font-weight: 700;
+                    font-family: inherit;
+                  "
+                >
+                  Food
+                </h1>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 202px;
+                    max-width: 100%;
+                  "
+                >
+                  <h1
+                    style="
+                      margin: 0;
+                      position: relative;
+                      font-size: inherit;
+                      line-height: 133.12%;
+                      font-weight: 700;
+                      font-family: inherit;
+                    "
+                  >
+                    Price
+                  </h1>
+                  <h1
+                    style="
+                      margin: 0;
+                      position: relative;
+                      font-size: inherit;
+                      line-height: 133.12%;
+                      font-weight: 700;
+                      font-family: inherit;
+                    "
+                  >
+                    Quntity
+                  </h1>
+                </div>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  padding: 0px 0px 0px 0px;
+                  box-sizing: border-box;
+                  max-width: 100%;
+                  font-size: 25px;
+                "
+              >
+                <div
+                  style="
+                    border-radius: 20px;
+                    background-color: rgba(255, 255, 255, 0.75);
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border: 2px solid rgba(0, 0, 0, 0.5);
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 33px 52px 33px 61px;
+                    max-width: 100%;
+                  "
+                >
+                  <div
+                    style="
+                      width: 916px;
+                      overflow-x: auto;
+                      flex-shrink: 0;
+                      display: flex;
+                      flex-direction: row;
+                      align-items: flex-start;
+                      justify-content: space-between;
+                      padding: 0px 0px 0px 0px;
+                      box-sizing: border-box;
+                      gap: 20px;
+                      max-width: 100%;
+                    "
+                  >
+                    <div
+                      style="
+                        position: relative;
+                        line-height: 133.12%;
+                        white-space: nowrap;
+                      "
+                    >
+                      Rice & Curry
+                    </div>
+                    <div
+                      style="
+                        width: 136px;
+                        position: relative;
+                        line-height: 133.12%;
+                        display: inline-block;
+                        flex-shrink: 0;
+                        white-space: nowrap;
+                      "
+                    >
+                      Rs.200
+                    </div>
+                    <div
+                      style="
+                        position: relative;
+                        line-height: 133.12%;
+                        white-space: nowrap;
+                      "
+                    >
+                      20
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                width: 994px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 20px;
+                max-width: 100%;
+              "
+            >
+              <div style="height: 29px; width: 29px; position: relative">
+                <div
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0%;
+                    right: 0%;
+                    bottom: 0%;
+                    left: 0%;
+                    background-color: #d27c2c;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                  "
+                ></div>
+                <img
+                  style="
+                    position: absolute;
+                    height: 66.55%;
+                    width: 64.83%;
+                    top: 20.69%;
+                    right: 14.48%;
+                    bottom: 12.76%;
+                    left: 20.69%;
+                    max-width: 100%;
+                    overflow: hidden;
+                    max-height: 100%;
+                    z-index: 1;
+                  "
+                  loading="eager"
+                  alt=""
+                  src="./public/vector.svg"
+                />
+              </div>
+              <button
+                style="
+                  cursor: pointer;
+                  border: none;
+                  padding: 9px;
+                  background-color: #d27c2c;
+                  width: 171px;
+                  border-radius: 5.32px;
+                  box-shadow: 0px 2.4px 2.37px rgba(0, 0, 0, 0.25),
+                    -2.5px -2.5px 4.73px #fff, -1.2px -1.2px 1.18px #fff,
+                    3px 3px 4.14px rgba(0, 0, 0, 0.25);
+                  overflow: hidden;
+                  flex-shrink: 0;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center;
+                  box-sizing: border-box;
+                "
+              >
+                <div
+                  style="
+                    position: relative;
+                    font-size: 25px;
+                    font-family: Roboto;
+                    color: #fff;
+                    text-align: left;
+                  "
+                >
+                  Update
+                </div>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div
+        style="
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 29px 20px 41px 22px;
+          box-sizing: border-box;
+          position: relative;
+          gap: 43px;
+          max-width: 100%;
+        "
+      >
+        <footer
+          style="
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: 0 !important;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgba(0, 0, 0, 0.25);
+          "
+        ></footer>
+        <div
+          style="
+            width: 1250px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 13px;
+            max-width: 100%;
+            flex-shrink: 0;
+          "
+        >
+          <div
+            style="
+              align-self: stretch;
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              justify-content: space-between;
+              gap: 20px;
+              max-width: 100%;
+              flex-shrink: 0;
+            "
+          >
+            <div
+              style="
+                width: 405px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 46px;
+                max-width: 100%;
+              "
+            >
+              <div
+                style="
+                  flex: 1;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  min-width: 116px;
+                "
+              >
+                <div
+                  style="
+                    height: 37px;
+                    position: relative;
+                    font-weight: 500;
+                    display: inline-block;
+                    flex-shrink: 0;
+                    z-index: 2;
+                  "
+                >
+                  Company
+                </div>
+                <div
+                  style="
+                    align-self: stretch;
+                    height: 143px;
+                    position: relative;
+                    font-weight: 300;
+                    display: inline-block;
+                    flex-shrink: 0;
+                    z-index: 1;
+                  "
+                >
+                  <p style="margin: 0">Help</p>
+                  <p style="margin: 0">About Us</p>
+                  <p style="margin: 0">Jobs</p>
+                  <p style="margin: 0">Contact</p>
+                  <p style="margin: 0">Privacy Notice</p>
+                  <p style="margin: 0">Terms & condition</p>
+                </div>
+              </div>
+              <div
+                style="
+                  position: relative;
+                  line-height: 133.12%;
+                  font-weight: 500;
+                  display: inline-block;
+                  height: 19.3px;
+                  z-index: 1;
+                "
+              >
+                Download the App
+              </div>
+            </div>
+            <div
+              style="
+                width: 273px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 0px 4px 0px 0px;
+                box-sizing: border-box;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  padding: 0px 16px;
+                "
+              >
+                <div
+                  style="
+                    height: 37.5px;
+                    position: relative;
+                    font-weight: 500;
+                    display: inline-block;
+                    z-index: 2;
+                  "
+                >
+                  Contact Us
+                </div>
+              </div>
+              <div
+                style="
+                  align-self: stretch;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  gap: 24px;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 14px;
+                  "
+                >
+                  <img
+                    style="
+                      width: 32px;
+                      height: 25px;
+                      position: relative;
+                      overflow: hidden;
+                      flex-shrink: 0;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/primephone.svg"
+                  />
+
+                  <img
+                    style="
+                      width: 30px;
+                      height: 23.4px;
+                      position: relative;
+                      overflow: hidden;
+                      flex-shrink: 0;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/pajamasmail.svg"
+                  />
+
+                  <img
+                    style="
+                      width: 30px;
+                      height: 23.4px;
+                      position: relative;
+                      overflow: hidden;
+                      flex-shrink: 0;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/tdesignlocation.svg"
+                  />
+                </div>
+                <div
+                  style="
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    padding: 3px 0px 0px;
+                  "
+                >
+                  <div
+                    style="
+                      align-self: stretch;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                      justify-content: flex-start;
+                      gap: 1px;
+                    "
+                  >
+                    <div
+                      style="
+                        height: 37px;
+                        position: relative;
+                        font-weight: 300;
+                        display: inline-block;
+                        flex-shrink: 0;
+                        z-index: 3;
+                      "
+                    >
+                      0553551505
+                    </div>
+                    <div
+                      style="
+                        height: 37px;
+                        position: relative;
+                        font-weight: 300;
+                        display: inline-block;
+                        flex-shrink: 0;
+                        white-space: nowrap;
+                        z-index: 1;
+                      "
+                    >
+                      kvmet2023@gmail.com
+                    </div>
+                    <div
+                      style="
+                        height: 37.5px;
+                        position: relative;
+                        font-weight: 300;
+                        display: inline-block;
+                        flex-shrink: 0;
+                        z-index: 1;
+                      "
+                    >
+                      Sri lanka
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="
+                width: 324px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 33px 0px 0px;
+                box-sizing: border-box;
+                max-width: 100%;
+              "
+            >
+              <div
+                style="
+                  align-self: stretch;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  padding: 0px 26px 0px 0px;
+                "
+              >
+                <div
+                  style="
+                    align-self: stretch;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    padding: 0px 0px 0px 0px;
+                  "
+                >
+                  <div
+                    style="
+                      width: 324px;
+                      display: flex;
+                      flex-direction: row;
+                      align-items: flex-start;
+                      justify-content: flex-start;
+                      position: relative;
+                      max-width: 109%;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <div
+                      style="
+                        height: 37px;
+                        position: absolute;
+                        margin: 0 !important;
+                        top: -31px;
+                        left: 0px;
+                        font-weight: 500;
+                        display: inline-block;
+                        z-index: 1;
+                      "
+                    >
+                      Logo
+                    </div>
+                    <div
+                      style="
+                        height: 131.1px;
+                        flex: 1;
+                        position: relative;
+                        font-weight: 300;
+                        display: inline-block;
+                        max-width: 100%;
+                        z-index: 1;
+                      "
+                    >
+                      <p style="margin: 0">hjhjkfshjs dvjhvjhsvkjhvdkjhvds d</p>
+                      <p style="margin: 0">chsghjsdgjvhsdgd jhvj ideikshfj v</p>
+                      <p style="margin: 0">dhvghsvj dsjhksj sdh dshk dbvjdm</p>
+                      <p style="margin: 0">dbv dvbd dsjhalk vjvjf</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 0px 1px 0px 0px;
+                    gap: 19px;
+                  "
+                >
+                  <img
+                    style="
+                      height: 22.9px;
+                      width: 27px;
+                      position: relative;
+                      overflow: hidden;
+                      flex-shrink: 0;
+                      min-height: 23px;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/fa6brandssquaretwitter.svg"
+                  />
+
+                  <img
+                    style="
+                      height: 20px;
+                      width: 27px;
+                      position: relative;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/vector-1.svg"
+                  />
+
+                  <img
+                    style="
+                      height: 20px;
+                      width: 27px;
+                      position: relative;
+                      overflow: hidden;
+                      flex-shrink: 0;
+                      z-index: 1;
+                    "
+                    loading="eager"
+                    alt=""
+                    src="./public/entyposocialfacebook.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              align-self: stretch;
+              height: 1px;
+              position: relative;
+              border-top: 1px solid #3f4e4f;
+              box-sizing: border-box;
+              z-index: 1;
+            "
+          ></div>
+        </div>
+        <a
+          style="
+            width: 762px;
+            position: relative;
+            line-height: 133.12%;
+            font-weight: 200;
+            color: inherit;
+            display: inline-block;
+            text-decoration: none;
+            max-width: 100%;
+            z-index: 1;
+          "
+          href="mailto:kvmet2023@gmail.com"
+          target="_blank"
+        >
+          <p style="margin: 0">
+            For Your Queries,Call us Via 0112564750 or Email us on
+            -kvmet2023@gmail.com
+          </p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
