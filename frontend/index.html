@@ -37,6 +37,31 @@
     }
 
     /* Additional styling as needed */
+    .modal-content label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .modal-content input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .modal-content button {
+      width: 100%;
+      padding: 10px;
+      background-color: #873bd9;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .modal-content button:hover {
+      background-color: #45a049;
+    }
   </style>
 </head>
 
@@ -274,30 +299,38 @@
         <h2>Login</h2>
         <form id="loginForm" action="https://backend-my28.onrender.com/user/login" method="post">
           <!-- Add your login form fields here (e.g., username, password) -->
-          <label for="username">Username:</label>
-          <input type="text" id="email" name="email" required>
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
           <button type="submit">Login</button>
+          <p id="loginMessage" style="display: none;">Logging in, please wait...</p>
         </form>
 
-        <p>Don't have an account? <a href="#">Register here</a></p>
+        <p>Don't have an account? <a href="https://docs.google.com/forms/d/e/1FAIpQLScMKxBEXLAL5uYOVd2Oy-NnQzhbhrGaca5BXLuCTnkwxMEgUg/viewform">Register here</a></p>
       </div>
     </div>
 
     <script>
       document.getElementById("loginForm").addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent the form from submitting normally
-    
+
+        // Display "Logging in, please wait..." message
+        document.getElementById("loginMessage").style.display = "block";
+
         // Get form data
         const formData = new FormData(this);
-    
+
         // Convert form data to JSON
         const jsonData = {};
         formData.forEach((value, key) => {
           jsonData[key] = value;
         });
-    
+
         // Send data to backend
         fetch(this.action, {
           method: "POST",
@@ -330,10 +363,14 @@
             console.error("There was a problem with the login:", error);
             // Display error message
             alert("Username or password incorrect");
+          })
+          .finally(() => {
+            // Hide "Logging in, please wait..." message
+            document.getElementById("loginMessage").style.display = "none";
           });
       });
     </script>
-    
+
 
 
     <script>
